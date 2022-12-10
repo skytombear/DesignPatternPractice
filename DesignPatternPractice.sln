@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern", "DesignPattern\DesignPattern.csproj", "{1C0A5DE5-F8BA-4414-8830-23C8D60CEDEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Common", "Library.Common\Library.Common.csproj", "{1C0A5DE5-F8BA-4414-8830-23C8D60CEDEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowCase", "ShowCase\ShowCase.csproj", "{6F69668F-2E98-4D8F-9E4C-56C6A7135761}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.ShowCase", "Console.ShowCase\Console.ShowCase.csproj", "{6F69668F-2E98-4D8F-9E4C-56C6A7135761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIApplication", "WebAPIApplication\WebAPIApplication.csproj", "{D98E084D-381B-425B-82E9-63D4F53D2B1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +26,9 @@ Global
 		{6F69668F-2E98-4D8F-9E4C-56C6A7135761}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F69668F-2E98-4D8F-9E4C-56C6A7135761}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F69668F-2E98-4D8F-9E4C-56C6A7135761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98E084D-381B-425B-82E9-63D4F53D2B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98E084D-381B-425B-82E9-63D4F53D2B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98E084D-381B-425B-82E9-63D4F53D2B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98E084D-381B-425B-82E9-63D4F53D2B1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
